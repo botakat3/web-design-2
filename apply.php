@@ -45,19 +45,19 @@
   <form class="row g-3">
     <div class="col-md-6">
       <label for="inputfname" class="form-label" >First Name *</label>
-      <input type="text" class="form-control" id="inputfname" placeholder="First Name">
+      <input type="text" class="form-control" id="inputfname" placeholder="First Name" required>
     </div>
     <div class="col-md-6">
     <label for="inputlname" class="form-label">Last Name *</label>
-    <input type="text" class="form-control" id="inputlname" placeholder="Last Name">
+    <input type="text" class="form-control" id="inputlname" placeholder="Last Name" required>
   </div>
     <div class="col-md-6">
       <label for="inputemail" class="form-label">Email *</label>
-      <input type="text" class="form-control" id="inputemail" placeholder="Email">
+      <input type="text" class="form-control" id="inputemail" placeholder="Email" required>
     </div>
     <div class="col-md-6">
       <label for="inputphone" class="form-label">Phone Number *</label>
-      <input type="text" class="form-control" id="inputphone" placeholder="Phone Number">
+      <input type="text" class="form-control" id="inputphone" placeholder="Phone Number" required>
     </div>
 
     <div class="col-12">
