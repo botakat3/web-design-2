@@ -320,6 +320,11 @@ footer form {
     background-color: #008f78;
 }
 
+.menu-img{
+    height: 220px;
+    object-fit: cover;
+}
+
 /*============================  contact page  ==============================*/
 
 .contact div {
