@@ -35,27 +35,25 @@
         </div>
     </div>
 
-    <div class="container my-4">
-        <h2 class="mb-3">Gallery</h2>
+    <!-- Gallery -->
+    <div class="row my-4">
+        <div class="col-12">
+            <h2 class="mb-3">Gallery</h2>
+        </div>
 
-        <div class="row g-3">
-            <!-- Column 1 -->
-            <div class="col-12 col-md-4">
-                <img class="img-fluid rounded mb-3" src="images/night.jpg" alt="Mama Ds at night">
-                <img class="img-fluid rounded mb-3" src="images/blueberrywaffles.jpg" alt="Blueberry waffles">
-            </div>
+        <div class="col-12 col-lg-4">
+            <img class="img-fluid rounded shadow-sm mb-3" src="images/night.jpg" alt="Mama Ds at night" loading="lazy">
+            <img class="img-fluid rounded shadow-sm mb-3" src="images/blueberrywaffles.jpg" alt="Blueberry waffles" loading="lazy">
+        </div>
 
-            <!-- Column 2 -->
-            <div class="col-12 col-md-4">
-                <img class="img-fluid rounded mb-3" src="images/owner.jpg" alt="Owner">
-                <img class="img-fluid rounded mb-3" src="images/dining.jpg" alt="Dining area">
-                <img class="img-fluid rounded mb-3" src="images/table.jpg" alt="Food on table">
-            </div>
+        <div class="col-12 col-md-4">
+            <img class="img-fluid rounded shadow-sm mb-3" src="images/owner.jpg" alt="Owner" loading="lazy">
+            <img class="img-fluid rounded shadow-sm mb-3" src="images/dining.jpg" alt="Dining area" loading="lazy">
+            <img class="img-fluid rounded shadow-sm mb-3" src="images/table.jpg" alt="Food on table" loading="lazy">
+        </div>
 
-            <!-- Column 3 -->
-            <div class="col-12 col-md-4">
-                <img class="img-fluid rounded mb-3" src="images/waffles_bacon.jpg" alt="Waffles with bacon">
-            </div>
+        <div class="col-12 col-md-4">
+            <img class="img-fluid rounded shadow-sm mb-3" src="images/waffles_bacon.jpg" alt="Waffles with bacon" loading="lazy">
         </div>
     </div>
 </div>
