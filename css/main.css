@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+:root {
+    /*fonts*/
+    --body-fonts: 'Roboto', sans-serif;
+    --secondary-font: 'Amatic SC', sans-serif;
+
+    /*colors*/
+    --main-color: #C6DFDC;
+    --dark-main-color: #75C4B5;
+    --brown-color: #3A1E15;
+    --black-color: #343a40;
+
+}
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: var(--main-color);
+}
+nav {
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+}
+.nav-item a:hover {
+    color:var(--dark-main-color)
+}
+.logo img{
+    width: 30%;
+    background-color: var(--brown-color);
+    border-radius: 100px;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+nav .btn {
+    background-color: var(--dark-main-color);
+    font-size: 1.1em;
+    margin-left: 25px;
+    border-radius: 50px;
+
+}
+.banner{
+    height: 75vh;
+    background-image: url("../images/simplebanner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner div {
+    width: 700px;
+    padding-top: 10%;
+    margin-left: 15%;
+}
+
+.banner h1 {
+    font-family: var(--secondary-font);
+    font-size: 5.0em;
+}
+
+.btn-lg {
+    background-color: var(--dark-main-color);
+    width: 250px;
+    height: 75px;
+}
+a {
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+.btn-lg:hover{
+    background-color: var(--brown-color);
+    color: #fff
+}
+.default-btn {
+    background-color: var(--dark-main-color);
+    width: 200px;
+    height: 50px;
+    border-radius: 100px;
+    font-size: 1.2em;
+}
+h2 {
+    font-family: var(--secondary-font);
+}
+.img-border{
+    width: 500px;
+    border:  15px var(--main-color);
+    border-style: inset;
+    padding: 5px;
+}
+.row {
+    margin: 70px 100px;
+    text-align: left;
+    font-size: var(--body-fonts);
+}
+.row p {
+    font-family: var(--body-fonts);
+}
+#story p {
+    font-family: var(--body-fonts);
+    padding: 15px;
+    font-size: 1.1rem;
+    line-height: 40px;
+    padding-top: 25px;
+}
+#story h2 {
+    font-family: var(--secondary-font);
+    font-size: 3em;
+    width: 500px;
+    margin: 0 auto;
+}
+h2 img {
+    margin: -20px;
+}
+
+.gallery-row {
+    display: block;
+    text-align: center;
+}
+
+.gallery {
+    align-items: center;
+}
+.gallery img {
+    margin: 7px;
+    display: inline-flex;
+    height: 300px;
+}
+
+/*========= footer =========*/
+footer {
+    background-color: var(--main-color);
+
+}
+.footer-content {
+    width: 100%;
+    margin: 20px auto;
+    display: inline-flex;
+    padding: 50px
+
+}
+.footer h4 {
+    font-family: var(--secondary-font);
+}
+.footer p {
+    font-size: 1.1em;
+    line-height: 30px;
+}
+footer .btn {
+    background-color: var(--dark-main-color);
+    font-size: .9em;
+
+}
+.footer ul {
+    padding: 0;
+}
+.footer ul li {
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+}
+.footer-middle a:hover {
+    color: var(--dark-main-color)
+}
+.footer-left img {
+    width: 50%;
+    margin: -25px;
+    margin-top: -50px;
+    background-color: var(--brown-color);
+    border-radius: 200px;
+    align-items: center;
+}
+ footer a {
+     text-decoration: none;
+     color: #000;
+ }
+.footer-left {
+    text-align: left;
+}
+.footer-left p {
+    line-height: 20px;
+    font-size: .9em;
+
+}
+
+footer form {
+    height: 40px;
+}
+
+#footer-logo {
+    margin: 0 0 15px 100px;
+    width: 40%;
+}
+
+/*===================== location page ==========================*/
+.location {
+    display: inline-flex;
+    margin-top: 70px;
+    text-align: center;
+}
+.location-text {
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgb(117, 196, 181) 100%);
+    border-radius: 25px;
+    padding: 30px;
+
+
+}
+.location h2 {
+    font-family: var(--secondary-font);
+    font-weight: 1000;
+    font-size: 55px;
+
+
+}
+.location-text h2 {
+    font-family: var(--secondary-font);
+    font-size: 50px;
+    width: 500px;
+    margin: 0 auto;
+
+}
+.location-text ul{
+    padding: 0;
+}
+.location h3 {
+    font-family: var(--secondary-font);
+    font-size: 30px;
+}
+.location img {
+    width: 560px;
+}
+.location ul li {
+    list-style-type: none;
+}
+
+
+
+
+/*====================== menu page ========================*/
+.card {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+.menu-buttons {
+    width: 900px;
+    margin: 0 auto;
+ padding-left: 35px;
+}
+.menu-buttons a{
+    display: inline-flex;
+    width: 200px;
+}
+.menu h2 {
+    font-family: var(--secondary-font);
+    font-weight: 1000;
+    font-size: 55px;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menu h3 {
+    font-family: var(--secondary-font);
+    font-weight: 1000;
+    font-size: 45px;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+.headers {
+    text-align: center;
+    display: block;
+    margin: 0 0 -40px 0;
+}
+
+.card h5{
+    font-family: var(--secondary-font);
+    font-size: 40px;
+}
+.card-text {
+    line-height: 15px;
+    font-family: var(--body-fonts);
+    font-size: 15px;
+}
+
+.card-img-top {
+ height: 250px;
+    width: 250px;
+}
+
+
+#myBtn {
+
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    background-color: var(--dark-main-color);
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 25px;
+}
+
+#myBtn:hover {
+    background-color: #008f78;
+}
+
+/*============================  contact page  ==============================*/
+
+.contact div {
+    margin: 20px 0 20px 0;
+}
+
+.contact p {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+/*==========================  live music  ===============================*/
+.live-music-text {
+    margin-top: 70px;
+}
+.live-music p {
+    font-size: 20px;
+    width: 350px;
+}
+
+.live-music iframe {
+    border:  15px var(--main-color);
+    border-style: inset;
+    padding: 5px;
+    justify-content: flex-end;
+}
+
+.live-music img {
+    background-color: var(--dark-main-color);
+    border-radius: 50px;
+    padding: 5px;
+}
+
+
+/*===========================  apply page  =====================*/
+
+.apply p {
+    line-height: 35px;
+    width: 400px;
+}
+
+#apply-btn {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+/*===========================  breadcrumb  ====================*/
+.breadcrumb a {
+    text-decoration: underline;
+}
+.breadcrumb a:hover {
+    color: var(--dark-main-color)
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="bitlampsites.com" id="e83c2810-5889-4ad7-92f8-338cafd40b5a" port="22" nameFormat="DESCRIPTIVE" username="kbotabara" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>

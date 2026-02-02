@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="15954b2f-a347-4a28-9820-c81551d6e9f6" name="Mama D's">
+        <fileTransfer rootFolder="/public_html/wd2/botabara_wd2_final" accessType="SFTP" host="bitlampsites.com" port="22" sshConfigId="e83c2810-5889-4ad7-92f8-338cafd40b5a" sshConfig="kbotabara@bitlampsites.com:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
