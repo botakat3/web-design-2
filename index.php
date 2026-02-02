@@ -17,31 +17,34 @@
 <div class="banner">
     <div>
         <h1>Classy Coffee &amp; Cozy Destinations</h1>
-        <a href="menu.php"><button type="button" class="btn btn-lg" href="menu.php">Menu</button></a>
+        <a class="btn btn-lg" href="menu.php">Menu</a>
     </div>
 
 </div>
-<div class="container text-center">
+<div class="container text-center py-4">
 
-    <div class="row">
-        <div class="col">
-            <img class="img-border" src="images/building.jpg" alt="Outside picture of Mama Ds at Wales">
+    <div class="row align-items-center g-4">
+        <div class="col-12 col-lg-6">
+            <img class="img-border img-fluid" src="images/building.jpg" alt="Outside picture of Mama Ds at Wales">
         </div>
-        <div id="story" class="col ">
-            <h2><img src="images/leaves_left.webp">The Start of Our Story</h2>
+        <div id="story" class="col-12 col-lg-6 ">
+            <h2>
+                <img src="images/leaves_left.webp" loading="lazy">
+                The Start of Our Story
+            </h2>
             <p>When Diana Markus became an empty nester after her three children were grown and she had volunteered for every cause imaginable, she decided to take the leap and open the coffee shop she had been dreaming of for years. The first step was finding a location. She wanted a place with character. Everyone told her she had to find a location on a busy street to ensure a steady flow of customers. But Diana hated the strip mall locations and instead found a charming vintage former bank building at 104 W. Main Street in Wales that spoke to her. This was the beginning of Mama D’s Coffee in May of 2012.
             </p>
-            <a href="visit.php"><button type="button" class="btn default-btn">Visit Us!</button></a>
+            <a class="btn default-btn" href="visit.php">Visit Us!</a>
         </div>
     </div>
 
     <!-- Gallery -->
-    <div class="row my-4">
+    <div class="row my-5 g-4">
         <div class="col-12">
             <h2 class="mb-3">Gallery</h2>
         </div>
 
-        <div class="col-12 col-lg-4">
+        <div class="col-12 col-md-4">
             <img class="img-fluid rounded shadow-sm mb-3" src="images/night.jpg" alt="Mama Ds at night" loading="lazy">
             <img class="img-fluid rounded shadow-sm mb-3" src="images/blueberrywaffles.jpg" alt="Blueberry waffles" loading="lazy">
         </div>
