@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MessDetectorOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCSFixerOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCodeSnifferOptionsConfiguration">
+    <option name="highlightLevel" value="WARNING" />
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PhpInterpreters">
+    <interpreters>
+      <interpreter id="4de292cd-2c13-4351-ba21-0acee61d13df" name="kbotabara@bitlampsites.com:22 password" home="sshConfig://DATA" auto="false" debugger_id="php.debugger.XDebug">
+        <remote_data INTERPRETER_PATH="/public_html/wd2" HELPERS_PATH="" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" SSH_CONFIG_ID="e83c2810-5889-4ad7-92f8-338cafd40b5a" SSH_CONFIG_NAME="kbotabara@bitlampsites.com:22 password" SSH_CREDENTIALS_ID="sshConfig://kbotabara@bitlampsites.com:22 password" />
+      </interpreter>
+    </interpreters>
+  </component>
+  <component name="PhpStanOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PsalmOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+</project>

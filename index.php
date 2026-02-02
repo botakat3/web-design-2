@@ -35,13 +35,27 @@
         </div>
     </div>
 
-    <div class="row gallery-row">
-        <h2>Gallery</h2>
-        <div class="col gallery">
-            <img src="images/night.jpg" alt="Picture of Mama Ds at night"><img src="images/owner.jpg" alt="Picture of the owner"><img src="images/waffles_bacon.jpg" alt="Waffles with bacon on the side">
-        </div>
-        <div class="col gallery">
-            <img src="images/blueberrywaffles.jpg" alt="Blue berry waffles"><img src="images/dining.jpg" alt="Picture of blue berry waffles"><img src="images/table.jpg" alt="Mama Ds food on table">
+    <div class="container my-4">
+        <h2 class="mb-3">Gallery</h2>
+
+        <div class="row g-3">
+            <!-- Column 1 -->
+            <div class="col-12 col-md-4">
+                <img class="img-fluid rounded mb-3" src="images/night.jpg" alt="Mama Ds at night">
+                <img class="img-fluid rounded mb-3" src="images/blueberrywaffles.jpg" alt="Blueberry waffles">
+            </div>
+
+            <!-- Column 2 -->
+            <div class="col-12 col-md-4">
+                <img class="img-fluid rounded mb-3" src="images/owner.jpg" alt="Owner">
+                <img class="img-fluid rounded mb-3" src="images/dining.jpg" alt="Dining area">
+                <img class="img-fluid rounded mb-3" src="images/table.jpg" alt="Food on table">
+            </div>
+
+            <!-- Column 3 -->
+            <div class="col-12 col-md-4">
+                <img class="img-fluid rounded mb-3" src="images/waffles_bacon.jpg" alt="Waffles with bacon">
+            </div>
         </div>
     </div>
 </div>
